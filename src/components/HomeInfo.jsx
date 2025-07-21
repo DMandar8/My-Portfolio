@@ -18,13 +18,13 @@ const renderContent = {
         </h1> 
     ),
     2: (
-        <InfoBox text="Worked with many companies and picked up many skills along the way" link="/about" btnText="Know more"/>
+        <InfoBox text="My journey has been a blend of learning, building, and growing through hands-on experience." link="/about" btnText="About me"/>
     ),
     3: (
-        <InfoBox text="Led multiple projects to success over the years. Curious about the impact?" link="/projects" btnText="View projects"/>
+        <InfoBox text="Brought ideas to life through impactful projects. Curious to see the work?" link="/projects" btnText="My Projects"/>
     ),
     4: (
-        <InfoBox text="Need a project done or looking for a dev? I'm just a few keystrokes away" link="/contact" btnText="Let's talk"/>
+        <InfoBox text="Need a project done or looking for a dev? I'm just a few keystrokes away" link="/contact" btnText="Contact"/>
     ),
 }
 

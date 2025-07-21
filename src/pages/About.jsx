@@ -41,7 +41,7 @@ const About = () => {
       </div>
 
       <div className="py-16">
-        <h3 className="subhead-text">Work Experience</h3>
+        <h3 className="subhead-text">My Journey</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
             From the excitement of writing my first line of code to architecting full-stack applications used in the real world, my journey has been a relentless pursuit of growth—driven by passion, fueled by challenges, and shaped by a deep commitment to mastering the craft of software development.<br/>
