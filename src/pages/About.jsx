@@ -44,8 +44,8 @@ const About = () => {
         <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I have worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            From the excitement of writing my first line of code to architecting full-stack applications used in the real world, my journey has been a relentless pursuit of growth—driven by passion, fueled by challenges, and shaped by a deep commitment to mastering the craft of software development.<br/>
+            My journey reflects a steady path of learning, experimenting, and building meaningful digital solutions.
           </p>
         </div>
 

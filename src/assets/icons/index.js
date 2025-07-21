@@ -26,6 +26,16 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import java from './java.png'
+import c from './c.png';
+import sql from './sql.png';
+import php from './php.png';
+import bootstrap from './bootstrap.jpg';
+import mongo from './mongo-1.png';
+import node from './node-1.png';
+import expressjs from './express-1.png';
+
+
 
 export {
     css,
@@ -55,5 +65,15 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    java,
+    c,
+    sql,
+    php,
+    bootstrap,
+    mongo,
+    node,
+    expressjs,
+
+
 }

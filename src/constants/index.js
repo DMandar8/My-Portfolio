@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, poly, jnec, it } from "../assets/images";
 import {
     car,
     contact,
@@ -23,7 +23,16 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    java,
+    sql,
+    node,
+    expressjs,
+    bootstrap,
+    mongo,
+    c,
+    php,
+
 } from "../assets/icons";
 
 export const skills = [
@@ -58,27 +67,27 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
+        imageUrl: mongo,
         name: "MongoDB",
         type: "Database",
     },
+    // {
+    //     imageUrl: motion,
+    //     name: "Motion",
+    //     type: "Animation",
+    // },
+    // {
+    //     imageUrl: mui,
+    //     name: "Material-UI",
+    //     type: "Frontend",
+    // },
+    // {
+    //     imageUrl: nextjs,
+    //     name: "Next.js",
+    //     type: "Frontend",
+    // },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
+        imageUrl: node,
         name: "Node.js",
         type: "Backend",
     },
@@ -87,79 +96,90 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
+   
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
+        imageUrl: bootstrap,
+        name: "Bootstrap",
+        type: "Frontend framework",
     },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+    // {
+    //     imageUrl: sass,
+    //     name: "Sass",
+    //     type: "Frontend",
+    // },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
     },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
+        imageUrl: java,
+        name: "Java",
+        type: "Core Language",
+    },
+     {
+        imageUrl: sql,
+        name: "React",
         type: "Frontend",
+    },
+    {
+        imageUrl: c,
+        name: "C",
+        type: "Programming language",
     }
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Diploma in Computer Engineering",
+        company_name: "MGM's Polytechnic College",
+        icon: poly,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "March 2019 - April 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Built foundational knowledge in programming and computer systems.",
+            "Developed early projects in C, Java, and basic web development.",
+            "Explored database concepts, logic building, and algorithmic thinking.",
+            "Learned the importance of clean code and structured problem-solving.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Computer Science & Engineering",
+        company_name: "Jawaharlal Nehru Engineering College",
+        icon: jnec,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jan 2023 - Feb 2026",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Deepened expertise in full-stack development and data structures.",
+            "Actively contributed to technical events, hackathons, and group projects.",
+            "Worked on scalable web app architectures and system design.",
+            "Balanced academics with real-world development practice.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Software Developer Internship",
+        company_name: "ITSight",
+        icon: it,
+        iconBg: "#000000",
+        date: "Jan 2025 - June 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Worked on multiple client-based projects using MERN & PHP stacks.",
+            "Built scalable APIs and dynamic web components in team environments.",
+            "Gained hands-on deployment experience and version control workflows.",
+            "Learned real-world project delivery, client handling, and debugging.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
+        title: "Final Year Project",
+        company_name: "JNEC CMS (Live Now)",
         icon: meta,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "July 2025 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Led frontend and backend development of a full-stack CMS for jnec.org.",
+            "Implemented secure role-based access for admins and faculty.",
+            "Integrated dynamic content modules and real-time database updates.",
+            "Deployed live system, now actively used by the college staff.",
         ],
     },
 ];
