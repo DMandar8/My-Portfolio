@@ -14,6 +14,7 @@ import mrk from './mrk.png'
 import cmsimg from './cms-img.jpeg'
 import popai from './popai.jpeg'
 import atlasmdb from './atlasmdb.png'
+import codeathon from './codeathon.jpeg'
 
 
 
@@ -35,5 +36,6 @@ export {
     mrk,
     cmsimg,
     popai,
-    atlasmdb
+    atlasmdb,
+    codeathon
 }

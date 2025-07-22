@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, poly, jnec, it, cms, dhub, jnecorg, mrk, cmsimg, popai, atlasmdb } from "../assets/images";
+import { meta, shopify, starbucks, tesla, poly, jnec, it, cms, dhub, jnecorg, mrk, cmsimg, popai, atlasmdb, codeathon } from "../assets/images";
 import {
     car,
     contact,
@@ -213,41 +213,41 @@ export const projects = [
         theme: 'btn-back-red',
         name: ' JNEC.org – Official College Website',
         description: 'Crafted and deployed the dynamic, responsive website of JNEC to showcase academic offerings, updates, and events.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        link: 'https://jnec.org/',
     },
     {
         iconUrl: cmsimg,
         theme: 'btn-back-red',
         name: 'JNEC CMS – College Content Management System',
         description: 'Developed a secure dashboard-driven CMS to manage and update all dynamic content of the JNEC official site.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        link: 'https://jnec.org/admin',
     },
     {
         iconUrl: dhub,
         theme: 'btn-back-green',
         name: 'DoctorsHub – Franchise & Appointment Platform',
         description: 'Built a web app for managing hospital franchise requests and multi-branch appointment bookings with role-based access.',
-        link: 'https://github.com/adrianhajdin/threads',
+        link: 'https://doctorshubpune.in/home/',
     },
     {
         iconUrl: mrk,
         theme: 'btn-back-blue',
         name: ' MRK Ghar Sansar Mall – Inventory & Sales Platform',
         description: 'Designed a scalable product management system for a local mall with admin-controlled inventory and daily billing.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        link: 'https://mrkmall.com/home/',
     },
     {
         iconUrl: popai,
         theme: 'btn-back-pink',
         name: ' AI-Based Movie Recommendation System',
         description: 'Created an AI-powered platform that suggests movies based on user preferences using OpenAI and IMDb APIs.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        link: 'https://github.com/DMandar8/AI-mini-project',
     },
     {
-        iconUrl: summiz,
+        iconUrl: codeathon,
         theme: 'btn-back-yellow',
-        name: 'Online Exam Portal with Proctoring',
+        name: 'Online Exam Portal with Proctoring (Ongoing)',
         description: 'Engineered a multi-tenant exam system featuring real-time proctoring, role-based access, and exam analytics.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        link: 'https://jnec.org/cse/test/test/login.php',
     }
 ];
