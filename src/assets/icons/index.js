@@ -34,6 +34,13 @@ import bootstrap from './bootstrap.jpg';
 import mongo from './mongo-1.png';
 import node from './node-1.png';
 import expressjs from './express-1.png';
+import dsa from './dsa.png';
+import rapid from './rapid.png';
+
+import mdbatlas from './mdbatlas.png';
+import tf from './tf-1.png';
+
+
 
 
 
@@ -74,6 +81,11 @@ export {
     mongo,
     node,
     expressjs,
+    dsa,
+    rapid,
+    mdbatlas,
+    tf,
+
 
 
 }

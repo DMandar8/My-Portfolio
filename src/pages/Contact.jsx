@@ -26,11 +26,12 @@ const Contact = () => {
     import.meta.env.VITE_EMAIL_JS_SERVICE_ID,
     import.meta.env.VITE_EMAIL_JS_TEMPLATE_ID,  
     {
-      from_name: form.name,
+      name: form.name,
       to_name: "Mandar Deshmukh",
       from_email: form.email,
       to_email: 'mandardeshmukh863@gmail.com',
       message: form.message,
+      time: new Date().toLocaleString(),
     },
     import.meta.env.VITE_EMAIL_JS_PUBLIC_KEY
   ).then(() => {

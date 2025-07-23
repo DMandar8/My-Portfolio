@@ -82,7 +82,7 @@
 // export default Plane;
 
 import React, { useEffect, useRef, useState } from 'react';
-import planeScene from '../assets/3d/plane.glb';
+// import planeScene from '../assets/3d/plane.glb';
 import { useGLTF, useAnimations, Text, Billboard } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 
@@ -146,7 +146,7 @@ const FloatingGlowingText = () => {
 
 const Plane = ({ isRotating, ...props }) => {
   const ref = useRef();
-  const { scene, animations } = useGLTF(planeScene);
+  const { scene, animations } = useGLTF('/models/plane-v1.glb');
   const { actions } = useAnimations(animations, ref);
   const [hasRotatedOnce, setHasRotatedOnce] = useState(false);
 

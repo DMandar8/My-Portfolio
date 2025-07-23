@@ -39,6 +39,23 @@ const Projects = () => {
           {project.name}
         </h4>
         <p className="mt-2 text-slate-600 text-sm">{project.description}</p>
+         {/* 👇 Technology Stack Section */}
+        <div className="flex flex-wrap mt-3 gap-2">
+          {project.techs.map((tech, index) => (
+            <div
+              key={index}
+              className="w-9 h-9  bg-gray-100 rounded-md shadow-sm flex items-center justify-center"
+              title="Tech Used"
+            >
+              <img
+                src={tech}
+                alt={`tech-${index}`}
+                className="w-full h-full object-contain"
+              />
+            </div>
+          ))}
+        </div>
+
 
         <div className="mt-5 flex items-center gap-2 font-poppins">
           <a

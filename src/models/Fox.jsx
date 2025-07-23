@@ -5,13 +5,13 @@ License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/fox-f372c04de44640fbb6a4f9e4e5845c78
 Title: Fox
 */
-import foxScene from '../assets/3d/fox.glb';
+// import foxScene from '../assets/3d/fox.glb';
 import React, { useEffect, useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 
 const Fox =({currentAnimation, ...props}) => {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF(foxScene);
+  const { nodes, materials, animations } = useGLTF('/models/fox-v1.glb');
   const { actions } = useAnimations(animations, group);
 
     useEffect(()=>{

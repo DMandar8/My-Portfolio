@@ -1,5 +1,5 @@
 import {React,useEffect,useRef} from 'react'
-import birdScene from '../assets/3d/bird.glb'
+// import birdScene from '../assets/3d/bird.glb'
 import { useAnimations, useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber';
 
@@ -7,7 +7,7 @@ const Bird = () => {
 
 
 
-    const {scene, animations} = useGLTF(birdScene);
+    const {scene, animations} = useGLTF('/models/bird-v1.glb');
     const birdRef = useRef();
     const { actions } = useAnimations(animations,birdRef);
 

@@ -32,6 +32,10 @@ import {
     mongo,
     c,
     php,
+    dsa,
+    rapid,
+    mdbatlas,
+    tf,
 
 } from "../assets/icons";
 
@@ -131,6 +135,15 @@ export const skills = [
         imageUrl: atlasmdb,
         name: "C",
         type: "Programming language",
+    },
+    {
+        imageUrl: php,
+        name: "php",
+        type: "Server-Side Scripting Language",
+    },{
+        imageUrl: dsa,
+        name: "DSA",
+        type: "Programming Core",
     }
 ];
 
@@ -214,6 +227,7 @@ export const projects = [
         name: ' JNEC.org – Official College Website',
         description: 'Crafted and deployed the dynamic, responsive website of JNEC to showcase academic offerings, updates, and events.',
         link: 'https://jnec.org/',
+        techs: [javascript, react, sql, tailwindcss]
     },
     {
         iconUrl: cmsimg,
@@ -221,6 +235,7 @@ export const projects = [
         name: 'JNEC CMS – College Content Management System',
         description: 'Developed a secure dashboard-driven CMS to manage and update all dynamic content of the JNEC official site.',
         link: 'https://jnec.org/admin',
+        techs: [react, sql, node,express, bootstrap]
     },
     {
         iconUrl: dhub,
@@ -228,6 +243,7 @@ export const projects = [
         name: 'DoctorsHub – Franchise & Appointment Platform',
         description: 'Built a web app for managing hospital franchise requests and multi-branch appointment bookings with role-based access.',
         link: 'https://doctorshubpune.in/home/',
+        techs: [html, css, php, javascript, sql, bootstrap]
     },
     {
         iconUrl: mrk,
@@ -235,6 +251,7 @@ export const projects = [
         name: ' MRK Ghar Sansar Mall – Inventory & Sales Platform',
         description: 'Designed a scalable product management system for a local mall with admin-controlled inventory and daily billing.',
         link: 'https://mrkmall.com/home/',
+        techs: [html, css, javascript, php, sql, bootstrap ]
     },
     {
         iconUrl: popai,
@@ -242,6 +259,7 @@ export const projects = [
         name: ' AI-Based Movie Recommendation System',
         description: 'Created an AI-powered platform that suggests movies based on user preferences using OpenAI and IMDb APIs.',
         link: 'https://github.com/DMandar8/AI-mini-project',
+        techs: [react, node, express, atlasmdb, rapid]
     },
     {
         iconUrl: codeathon,
@@ -249,5 +267,6 @@ export const projects = [
         name: 'Online Exam Portal with Proctoring (Ongoing)',
         description: 'Engineered a multi-tenant exam system featuring real-time proctoring, role-based access, and exam analytics.',
         link: 'https://jnec.org/cse/test/test/login.php',
+        techs: [react, node, express, sql, typescript, tf]
     }
 ];
