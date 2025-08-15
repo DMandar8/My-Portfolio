@@ -267,6 +267,6 @@ export const projects = [
         name: 'Online Exam Portal with Proctoring (Ongoing)',
         description: 'Engineered a multi-tenant exam system featuring real-time proctoring, role-based access, and exam analytics.',
         link: 'https://jnec.org/cse/test/test/login.php',
-        techs: [react, node, express, sql, typescript, tf]
+        techs: [html, css, javascript, sql, php, tailwindcss]
     }
 ];
