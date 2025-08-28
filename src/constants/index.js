@@ -1,4 +1,5 @@
-import { meta, shopify, starbucks, tesla, poly, jnec, it, cms, dhub, jnecorg, mrk, cmsimg, popai, atlasmdb, codeathon } from "../assets/images";
+import { meta, shopify, starbucks, tesla, poly, jnec, it, cms, dhub, jnecorg, mrk, cmsimg, popai, atlasmdb, codeathon, mobdash, ams } 
+from "../assets/images";
 import {
     car,
     contact,
@@ -226,6 +227,7 @@ export const projects = [
         theme: 'btn-back-red',
         name: ' JNEC.org – Official College Website',
         description: 'Crafted and deployed the dynamic, responsive website of JNEC to showcase academic offerings, updates, and events.',
+        btnText: 'Live link',
         link: 'https://jnec.org/',
         techs: [javascript, react, sql, tailwindcss]
     },
@@ -233,16 +235,18 @@ export const projects = [
         iconUrl: cmsimg,
         theme: 'btn-back-red',
         name: 'JNEC CMS – College Content Management System',
-        description: 'Developed a secure dashboard-driven CMS to manage and update all dynamic content of the JNEC official site.',
-        link: 'https://jnec.org/admin',
+        description: 'Developed a secure dashboard-driven CMS to manage and update all dynamic content of the JNEC official site. (Cannot publish code due to security reasons)',
+        btnText: 'Contact me to get code',
+        link: '/contact',
         techs: [react, sql, node,express, bootstrap]
     },
     {
         iconUrl: dhub,
         theme: 'btn-back-green',
         name: 'DoctorsHub – Franchise & Appointment Platform',
-        description: 'Built a web app for managing hospital franchise requests and multi-branch appointment bookings with role-based access.',
-        link: 'https://doctorshubpune.in/home/',
+        description: 'Built a web app for managing hospital franchise requests and multi-branch appointment bookings with role-based access.(Cannot publish code due to security reasons)',
+        btnText: 'Contact me to get code',
+        link: '/contact',
         techs: [html, css, php, javascript, sql, bootstrap]
     },
     {
@@ -250,6 +254,7 @@ export const projects = [
         theme: 'btn-back-blue',
         name: ' MRK Ghar Sansar Mall – Inventory & Sales Platform',
         description: 'Designed a scalable product management system for a local mall with admin-controlled inventory and daily billing.',
+        btnText: 'Live link',
         link: 'https://mrkmall.com/home/',
         techs: [html, css, javascript, php, sql, bootstrap ]
     },
@@ -258,15 +263,36 @@ export const projects = [
         theme: 'btn-back-pink',
         name: ' AI-Based Movie Recommendation System',
         description: 'Created an AI-powered platform that suggests movies based on user preferences using OpenAI and IMDb APIs.',
+        btnText: 'GitHub link',
         link: 'https://github.com/DMandar8/AI-mini-project',
         techs: [react, node, express, atlasmdb, rapid]
     },
     {
         iconUrl: codeathon,
         theme: 'btn-back-yellow',
-        name: 'Online Exam Portal with Proctoring (Ongoing)',
-        description: 'Engineered a multi-tenant exam system featuring real-time proctoring, role-based access, and exam analytics.',
-        link: 'https://jnec.org/cse/test/test/login.php',
+        name: 'Online Exam Portal with Proctoring© (Licensed)',
+        description: 'Engineered a multi-tenant exam system featuring real-time proctoring, role-based access, and exam analytics. (Cannot publish code due to security reasons)',
+        btnText: 'Contact me to get code',
+        link: '/contact',
         techs: [html, css, javascript, sql, php, tailwindcss]
+    },
+    {
+        iconUrl: mobdash,
+        theme: 'btn-back-yellow',
+        name: 'Dashboard to manage e-commerce mobile app.',
+        description: 'Designed and developed a web-based dashboard using PHP, integrated with a MySQL database for secure authentication and efficient management of e-commerce mobile application data.',
+        link: 'https://github.com/DMandar8/ecommerce-dashboard',
+        btnText: 'GitHub link',
+        techs: [html, css, javascript, sql, php, bootstrap]
+    },
+    {
+        iconUrl: ams,
+        theme: 'btn-back-yellow',
+        name: 'Asset Management System',
+        description: 'Built a full-stack MERN Asset Management System (AMS) with secure authentication, role-based access, and real-time database integration. (Cannot publish code due to security reasons)',
+        link: '/contact',
+        btnText: 'Contact me to get code',
+        techs: [react, javascript,node, express, sql, bootstrap]
     }
+
 ];

@@ -64,7 +64,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             className="font-semibold text-blue-600 hover:underline"
           >
-            Live Link
+            {project.btnText}
           </a>
           <img
             src={arrow}

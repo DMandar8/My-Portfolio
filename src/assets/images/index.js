@@ -15,6 +15,8 @@ import cmsimg from './cms-img.jpeg'
 import popai from './popai.jpeg'
 import atlasmdb from './atlasmdb.png'
 import codeathon from './codeathon.jpeg'
+import mobdash from './mobdash.png'
+import ams from './ams.png'
 
 
 
@@ -37,5 +39,7 @@ export {
     cmsimg,
     popai,
     atlasmdb,
-    codeathon
+    codeathon,
+    mobdash,
+    ams,
 }
