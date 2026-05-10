@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, poly, jnec, it, cms, dhub, jnecorg, mrk, cmsimg, popai, atlasmdb, codeathon, mobdash, ams } 
+import { meta, shopify, starbucks,yardi, tesla, poly, jnec, it, cms, dhub, jnecorg, mrk, cmsimg, popai, atlasmdb, codeathon, mobdash, ams } 
 from "../assets/images";
 import {
     car,
@@ -189,16 +189,16 @@ export const experiences = [
         ],
     },
     {
-        title: "College Website Content Management Dashboardt",
-        company_name: "JNEC CMS",
-        icon: cms,
-        iconBg: "#a2d2ff",
-        date: "May 2025 - July 2025",
+        title: "Software Engineer Intern",
+        company_name: "Yardi Software India Pvt Ltd",
+        icon: yardi,
+        iconBg: "#90caf9",
+        date: "Jan 2026 - June 2026",
         points: [
-            "Led frontend and backend development of a full-stack CMS for jnec.org.",
-            "Implemented secure role-based access for admins and faculty.",
-            "Integrated dynamic content modules and real-time database updates.",
-            "Deployed live system, now actively used by the college staff.",
+            "Worked on enterprise-level client cases and issue resolution within large-scale property management systems.",
+            "Collaborated with cross-functional teams to analyze workflows and troubleshoot production environments.",
+            "Gained hands-on exposure to SQL investigations, enterprise software processes, and business logic handling.",
+            "Developed strong problem-solving, system analysis, and client communication skills in real-world scenarios.",
         ],
     },
 ];

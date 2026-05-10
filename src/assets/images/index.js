@@ -17,6 +17,7 @@ import atlasmdb from './atlasmdb.png'
 import codeathon from './codeathon.jpeg'
 import mobdash from './mobdash.png'
 import ams from './ams.png'
+import yardi from './Yardi_logo.png'
 
 
 
@@ -42,4 +43,5 @@ export {
     codeathon,
     mobdash,
     ams,
+    yardi,
 }
