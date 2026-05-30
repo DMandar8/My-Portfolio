@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks,yardi, tesla, poly, jnec, it, cms, dhub, jnecorg, mrk, cmsimg, popai, atlasmdb, codeathon, mobdash, ams } 
+import { meta, shopify, starbucks,redis,yardi, tesla, poly, jnec, it, cms, dhub, jnecorg, mrk, cmsimg, popai, atlasmdb, codeathon, mobdash, ams } 
 from "../assets/images";
 import {
     car,
@@ -39,6 +39,11 @@ import {
     tf,
 
 } from "../assets/icons";
+
+import {  timesep1, timesep2,
+    timesep3, timesep4, timesep5, timesep6, timesep7, timesep8, timesep9,
+    timesep10, timesep11, timesep12, timesep13, timesep14, timesep15, timesep16,
+    timesep17, timesep18, timesep19 } from "../assets/timesep";
 
 export const skills = [
     {
@@ -141,10 +146,16 @@ export const skills = [
         imageUrl: php,
         name: "php",
         type: "Server-Side Scripting Language",
-    },{
+    },
+    {
         imageUrl: dsa,
         name: "DSA",
         type: "Programming Core",
+    },
+    {
+        imageUrl: redis,
+        name: "Redis",
+        type: "Caching",
     }
 ];
 
@@ -223,6 +234,15 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: timesep1, // or whatever icon variable you have
+        theme: 'btn-back-purple', // or any theme color you prefer
+        name: 'TimeSep – Enterprise CRM & Workforce Management',
+        description: 'Built a CRM platform for organization management, Dynamic RBAC and AI-driven dashboards for enterprise workforce management.',
+        btnText: '',
+        link: 'https://timesep.com/', // or your deployed URL
+        techs: [react, node, express, sql, redis]
+    },
+    {
         iconUrl: jnecorg,
         theme: 'btn-back-red',
         name: ' JNEC.org – Official College Website',
@@ -295,4 +315,121 @@ export const projects = [
         techs: [react, javascript,node, express, sql, bootstrap]
     }
 
+];
+
+export const timeSepScreenshots = [
+    { 
+      id: 1, 
+      src: timesep1, 
+      title: "Dashboard Overview (Dark Mode)",
+      description: "Main dashboard with key metrics and analytics in dark theme"
+    },
+    { 
+      id: 2, 
+      src: timesep2, 
+      title: "Dashboard Overview (Light Mode)",
+      description: "Main dashboard with key metrics and analytics in light theme"
+    },
+    { 
+      id: 3, 
+      src: timesep3, 
+      title: "Login Page",
+      description: "Secure authentication portal with email and password login"
+    },
+    { 
+      id: 4, 
+      src: timesep4, 
+      title: "Add User",
+      description: "Create new user accounts with role assignment and organization mapping"
+    },
+    { 
+      id: 5, 
+      src: timesep5, 
+      title: "List Users",
+      description: "View and manage all users with search, filter, and pagination"
+    },
+    { 
+      id: 6, 
+      src: timesep6, 
+      title: "Add Organization",
+      description: "Create new organization with logo upload and subscription plans"
+    },
+    { 
+      id: 7, 
+      src: timesep7, 
+      title: "List Organizations",
+      description: "Manage all organizations with status tracking and user counts"
+    },
+    { 
+      id: 8, 
+      src: timesep8, 
+      title: "Add Role (Step 1)",
+      description: "Define role name, description, and basic information"
+    },
+    { 
+      id: 9, 
+      src: timesep9, 
+      title: "Add Role (Step 2) - Permissions",
+      description: "Assign module-wise granular permissions to roles"
+    },
+    { 
+      id: 10, 
+      src: timesep10, 
+      title: "List Roles",
+      description: "View all roles with user counts and status indicators"
+    },
+    { 
+      id: 11, 
+      src: timesep11, 
+      title: "Add Ticket",
+      description: "Create support tickets with priority levels and assignments"
+    },
+    { 
+      id: 12, 
+      src: timesep12, 
+      title: "List Tickets",
+      description: "Track and manage support tickets with status updates"
+    },
+    { 
+      id: 13, 
+      src: timesep13, 
+      title: "Add Leave Request",
+      description: "Submit leave requests with type, duration, and reason"
+    },
+    { 
+      id: 14, 
+      src: timesep14, 
+      title: "List Leave Requests",
+      description: "View and manage employee leave requests with approval workflow"
+    },
+    { 
+      id: 15, 
+      src: timesep15, 
+      title: "Add Daily Activity",
+      description: "Log daily work activities and task progress"
+    },
+    { 
+      id: 16, 
+      src: timesep16, 
+      title: "List Employee Activities",
+      description: "Track and monitor employee daily activities and productivity"
+    },
+    { 
+      id: 17, 
+      src: timesep17, 
+      title: "System Logs",
+      description: "View audit trails and system activity logs for security"
+    },
+    { 
+      id: 18, 
+      src: timesep18, 
+      title: "Logout Page",
+      description: "Secure logout with session termination"
+    },
+    { 
+      id: 19, 
+      src: timesep19, 
+      title: "Database Schema",
+      description: "Complete database structure with tables and relationships"
+    }
 ];

@@ -18,7 +18,7 @@ import codeathon from './codeathon.jpeg'
 import mobdash from './mobdash.png'
 import ams from './ams.png'
 import yardi from './Yardi_logo.png'
-
+import redis from './redis.png'
 
 
 
@@ -44,4 +44,5 @@ export {
     mobdash,
     ams,
     yardi,
+    redis,
 }
