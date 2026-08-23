@@ -45,6 +45,10 @@ import {  timesep1, timesep2,
     timesep10, timesep11, timesep12, timesep13, timesep14, timesep15, timesep16,
     timesep17, timesep18, timesep19 } from "../assets/timesep";
 
+import {
+    docminr1, docminr2, docminr3,docminr4
+} from "../assets/docminr";
+
 export const skills = [
     {
         imageUrl: css,
@@ -212,6 +216,18 @@ export const experiences = [
             "Developed strong problem-solving, system analysis, and client communication skills in real-world scenarios.",
         ],
     },
+    {
+        title: "Software Engineer Trainee",
+        company_name: "Yardi Software India Pvt Ltd",
+        icon: yardi,
+        iconBg: "#000000",
+        date: "July 2026 - Present",
+        points: [
+            "Building an internal knowledge-assistant tool to automate report generation and accelerate SQL development for implementation teams.",
+            "Designing reusable SQL scripts and report automation utilities to improve reporting efficiency and data consistency.",
+            "Exploring and prototyping internal automation solutions to streamline reporting and implementation workflows.",
+        ],
+    },
 ];
 
 export const socialLinks = [
@@ -233,6 +249,15 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+    iconUrl: docminr1,
+    theme: 'btn-back-purple',
+    name: 'DocMinr – AI Powered Document Intelligence',
+    description: 'Built a RAG-based AI document intelligence platform for intelligent interaction with uploaded documents.',
+    btnText: '',
+    link: 'https://github.com/DMandar8/DocMinr.ai',
+    techs: [react, node, express, sql]
+    },  
     {
         iconUrl: timesep1, // or whatever icon variable you have
         theme: 'btn-back-purple', // or any theme color you prefer
@@ -432,4 +457,36 @@ export const timeSepScreenshots = [
       title: "Database Schema",
       description: "Complete database structure with tables and relationships"
     }
+];
+
+export const docminrScreenshots = [
+
+  { 
+    id: 1, 
+    src: docminr1, 
+    title: "Knowledge Base Management",
+    description: "Organize and manage document collections for AI interaction"
+  },
+
+  { 
+    id: 2, 
+    src: docminr2, 
+    title: "Document Processing",
+    description: "Process documents through extraction, embeddings and vector indexing"
+  },
+
+  { 
+    id: 3, 
+    src: docminr3, 
+    title: "AI-Powered Document Interaction",
+    description: "Ask questions and receive context-grounded responses from documents"
+  },
+
+  { 
+    id: 4, 
+    src: docminr4, 
+    title: "RAG System Architecture",
+    description: "Service-based architecture powering the document intelligence pipeline"
+  }
+
 ];
